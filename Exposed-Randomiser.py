@@ -14,6 +14,8 @@ medium = ['5', '10']
 hardtime = ['15 Minutes', '30 Minutes', '1 Hour', '2 Hours', '6 Hours', '12 Hours']
 hard = ['15', '20', '25', '30', '35', '40']
 yesno = ['Yes', 'No']
+level = ['Easy', 'Medium', 'Hard', 'Extreme']
+
 
 
 x = input("Difficulty: ")
