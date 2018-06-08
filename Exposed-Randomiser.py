@@ -11,6 +11,8 @@ Hard = 'Hard'
 Extreme = 'Extreme'
 easy = ['1', '5']
 medium = ['5', '10']
+hardtime = ['15 Minutes', '30 Minutes', '1 Hour', '2 Hours', '6 Hours', '12 Hours']
+hard = ['15', '20', '25', '30', '35', '40']
 yesno = ['Yes', 'No']
 
 
@@ -34,3 +36,13 @@ elif x == 'Medium':
     print("Pussy Out: ") + (random.choice(yesno))
     print("Enable Downoads: ") + (random.choice(yesno))
     print("Enable Comments: ") + (random.choice(yesno))
+elif x == 'Hard':
+        print("Time: ") + (random.choice(hardtime))
+        print("Delete After: ") + (random.choice(hardtime))
+        print("How Many Extensions: ") + (random.choice(hard))
+        print("Extension Duration: ") + (random.choice(hardtime))
+        print("Pussy Out: ") + (random.choice(yesno))
+        print("Enable Downoads: ") + (random.choice(yesno))
+        print("Enable Comments: ") + ('Yes')
+elif x == 'Extreme':
+    print("Randomise all")
